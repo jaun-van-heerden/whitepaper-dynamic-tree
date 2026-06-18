@@ -1,0 +1,14 @@
+# Normalize all text files to LF in the repository.
+# Working tree on Windows still gets the OS default; this just stops Git
+# from warning every time you stage a file.
+* text=auto eol=lf
+
+# Fonts and other binaries: never touch.
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
